@@ -2,6 +2,8 @@
 Variáveis são "Recipientes" onde podemos armazenar informações que podem variar, ou seja, podem ter qualquer tipo de valor.
 
 3 palavras-chaves para declarar variaveis:
+
+
 var - pode reatribuir valores var a = 5.. var a = 6 (fica valendo o ultimo)
 
 

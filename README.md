@@ -36,3 +36,16 @@ a /= 12
 var fristName = "Alan"
 
 - Escapando de citações literais em Strings
+
+Operadores
+-> São usados para atribuir valores, comparar valores, executar operações aritméticas, etc.
+
+Os sinais que usamos: + - * / = ++ -- -= && || etc
+
+São separados em 6 categorias: 
+1 - Operadores aritméticos (matemáticos)
+2- Operadores de atribuição
+3 - Operadores de sequência
+4 - Operadoresde comparação 
+5 - Operadores condicional (Ternário)
+6 - Operadores lógicos  
