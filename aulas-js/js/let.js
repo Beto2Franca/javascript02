@@ -17,3 +17,24 @@ let x = 10
 }
 
 console.log(x)
+/*
+ var valor1, valor2, total;
+ 
+ valor1 = 5
+ valor2 = 2
+
+ total = ++valor1
+ alert('o valor ficou: ' +valor1)
+*/
+
+// atribuição
+
+// valor1 += valor2 
+// valor1 = valor1 + valor2
+
+
+
+var idade, eleitor
+idade = 18
+eleitor = (idade < 18) ? "Não é eleitor" : "Sim, é eleitor"
+alert(eleitor)
