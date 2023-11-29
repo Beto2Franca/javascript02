@@ -37,4 +37,4 @@ console.log(x)
 var idade, eleitor
 idade = 18
 eleitor = (idade < 18) ? "Não é eleitor" : "Sim, é eleitor"
-alert(eleitor)
+// alert(eleitor)
