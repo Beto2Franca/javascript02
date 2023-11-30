@@ -32,4 +32,4 @@ function paraCelsius(valorFahrenheit){
 
 var o = paraCelsius(77);
 
-alert("A temperatura é de " + o + " graus celsius")
+// alert("A temperatura é de " + o + " graus celsius")
