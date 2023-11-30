@@ -13,16 +13,23 @@
     </style>
 </head>
 
-<body>
+<!-- onmouseup=" alert('clicou na tela')" tava dentro do body-->
+<body onresize="console.log('houve um redicionamento')">
     <h1>Aprendendo JS</h1>
     <p id="texto"></p>
     <button ondblClick="eventoClick()">Clique aqui</button>
     <p>
+
+        <div id="teste" onmousemove="adicionarTexto()" onmouseout="viraAzul()" onmouseover="viraVermelho()" style=" margin: auto auto; width: 80%; height: 200px; background-color: aqua;" ></div>
+
         <script>
             document.write("Escrito com <u>Documento.write</u> <br> <br>")
             document.write(5 + 5);
         </script>
     </p>
+
+    <input onfocus="limpaTexto()" id="campoTexto" style="padding: 80px; font-size: 40px;" type="text" placeholder="Digite aqui..." value="Tem texto aqui">
+
     <script src="js/script.js"></script>
     <script src="js/script02.js"></script>
     <script src="js/script03.js"></script>
