@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .start{
+            width: 200px;
+            height: 150px;
+            background-color: rgb(0, 213, 255);
+            color: aliceblue;
+            font-size: 20px;
+        }
+        .stop{
+            width: 200px;
+            height: 150px;
+            background-color: rgb(255, 60, 0);
+            color: aliceblue;
+            font-size: 20px;
+        }
+        #bloco{
+            display: flex;
+            gap: 15px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript 04</h1>
+    <h2>SetTimeout e SetInterval</h2>
+
+    <h3 id="tempo">10</h3> <br>
+
+  <div id="bloco">
+      <button onclick="ativarContagem()" class="start">Ativar a contagem</button>
+      <button onclick="paraContagem()" class="stop">Parar a Contagem</button>
+  </div>
+
+    <script src="js04/aula.js"></script>
+    <script src="js04/aula2.js"></script>
+   
+  
+</body>
+</html>
+
